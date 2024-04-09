@@ -1,52 +1,65 @@
-.bg-gray {
-    background-color: gray;
-}
-
-.h-400 {
-    height: 400px;
-}
-
-.w-250 {
-    width: 250px;
-}
-
-.p-relative {
-    position: relative;
-}
-
-.p-absolute {
-    position: absolute;
-}
-
-.b-0 {
-    bottom: 0;
-}
-
-.r-0 {
-    right: 0;
-}
-
 .bg-black {
     background-color: black;
-}
-
-.text-white {
+  }
+  .bg-lightgray {
+    background-color: lightgray;
+  }
+  .text-white {
     color: white;
-}
-
-.h-50 {
-    height: 50px;
-}
-
-.w-200 {
-    width: 200px;
-}
-
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mt-10 {
-    margin-top: 10px;
-}
+  }
+  .h-20 {
+    height: 20px;
+  }
+  .h-200 {
+    height: 200px;
+  }
+  .w-150 {
+    width: 150px;
+  }
+  .w-120 {
+    width: 120px;
+  }
+  .mx-auto {
+    margin: auto;
+  }
+  .p-10 {
+    padding: 10px;
+  }
+  
+  .d-inline-block {
+    display: inline-block;
+  }
+  
+  .mt-2 {
+    margin-top: 2px;
+  }
+  
+  .maplestory-button {
+    background: linear-gradient(0deg, rgba(136,197,0,1) 0%, rgba(136,197,0,1) 35%, rgba(212,246,0,1) 55%, rgba(212,246,0,1) 100%);
+    text-shadow: rgba(88,163,0,1) 1px 1px 1px,
+                 rgba(88,163,0,1) 1px 0px 1px,
+                 rgba(88,163,0,1) -1px 0px 1px,
+                 rgba(88,163,0,1) -1px 1px 1px,
+                 rgba(88,163,0,1) -1px -1px 1px,
+                 rgba(88,163,0,1) 1px -1px 1px,
+                 rgba(88,163,0,1) 0px -1px 1px,
+                 rgba(88,163,0,1) 0px 1px 1px;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    padding-top: 2px;
+  }
+  
+  .maplestory-button-border {
+    background: linear-gradient(0deg, rgba(136,201,0,1) 0%, rgba(136,201,0,1) 20%, #ffffff 100%);;
+    padding:2px;
+    border-radius: 4px;
+    border: 1px solid rgba(77,164,0,1);
+  }
+  
+  .maplestory-button-border:has(> .maplestory-button:active:hover) {
+    background: linear-gradient(180deg, rgba(136,201,0,1) 0%, rgba(136,201,0,1) 20%, #ffffff 100%);;
+  }
+  
+  /* light green color: #d4f600 */
+  /* dark green color: #7ebb0b */

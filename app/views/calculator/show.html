@@ -1,17 +1,61 @@
-<div
-  data-controller="calculator"
-  class="bg-gray h-400 w-250 p-relative"
-  id="calculator-body"
->
-  <div
-    class="bg-black text-white h-50 w-200 mx-auto mt-10"
-    id="calculator-screen"
-  ></div>
-  <button
-    data-action="click->calculator#print_1"
-    class="p-absolute b-0 r-0"
-    id="addition-button"
-  >
-    +
-  </button>
+<div class="bg-lightgray h-200 w-150 p-10" data-controller="my-calculator" id="calculator-body">
+  <div class="bg-black text-white w-120 h-20 mx-auto" id="calculator-screen">hello</div>
+  <div class="w-120 p-10 mx-auto">
+    <div class="mt-2">
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">1</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">2</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">3</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">*</button>
+      </div>
+    </div>
+    <div class="mt-2">
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">4</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">5</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">6</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">/</button>
+      </div>
+    </div>
+    <div class="mt-2">
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">7</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">8</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">9</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">+</button>
+      </div>
+    </div>
+    <div class="mt-2">
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">0</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">.</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#equals">=</button>
+      </div>
+      <div class="maplestory-button-border d-inline-block">
+        <button class="maplestory-button" data-action="click->my-calculator#append">-</button>
+      </div>
+    </div>
+  </div>
 </div>

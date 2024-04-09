@@ -8,4 +8,9 @@ export default class extends Controller {
     const screenElement = this.element.querySelector("#calculator-screen")
     screenElement.innerHTML += "1"
   }
+
+  number() {
+    const num = this.element
+    console.log(num)
+  }
 }
